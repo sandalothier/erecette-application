@@ -1,0 +1,47 @@
+{
+  "generator-jhipster": {
+    "applicationType": "gateway",
+    "gitCompany": "",
+    "baseName": "erecette",
+    "packageName": "com.erecette.contribuable",
+    "packageFolder": "com/erecette/contribuable",
+    "serverPort": 8080,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": false,
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "6.5.1",
+    "jwtSecretKey": "NWE1NGM1NWE1ZGQ4MDQ5MmJmNDg5OWY4NWNiZGY0NGNjMTYyNDUzMjI0MWMxNmI0MTc0NTM0ZTFkYzY0MGJmZjI1MGI5MTkxMzRjZjlmNjNhNzNjZDc0YmQyOGQ1MWVlNTQ5NGE5NmI2Yjk5ZTAxZmQ5N2JlNmQ4OTY0ZWQ2MDY=",
+    "embeddableLaunchScript": false,
+    "clientTheme": "none",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "blueprints": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "sandalothier",
+  "repository-name": "erecette-application"
+}
